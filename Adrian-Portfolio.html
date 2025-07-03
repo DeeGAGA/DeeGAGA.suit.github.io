@@ -5,6 +5,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Adrian/Eddy Njuguna | CLI Developer Portfolio</title>
   <style>
+.cv-download {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.cv-download .btn {
+  background: #1f1f1f;
+  color: #fff;
+  padding: 12px 25px;
+  font-size: 1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  box-shadow: 0 0 10px rgba(0,255,255,0.5);
+  transition: all 0.3s ease;
+}
+
+.cv-download .btn:hover {
+  background: #00ffff;
+  color: #000;
+}
+
     body {
       margin: 0;
       padding: 0;
@@ -113,6 +134,11 @@
 <body>
   <h1>Adrian/Eddy Njuguna</h1>
   <p class="tagline">CLI Developer | Creative Technologist</p>
+<div class="cv-download">
+  <a href="Adrian_Eddy_Njuguna_CV.pdf" download class="btn">
+    📄 Download CV
+  </a>
+</div>
 
   <div class="bio">
     <p>I’m Adrian/Eddy Njuguna, a passionate CLI developer and creative technologist. My work blends clean code with bold ideas, and I thrive where logic meets innovation. I love building tools that empower others and push boundaries.</p>
@@ -133,10 +159,6 @@
   <div class="projects">
     <h2>Projects</h2>
     <div id="project-list"></div>
-  </div>
-
-  <div class="download-cv">
-    <a href="CV.pdf" download>Download CV</a>
   </div>
 
   <script>
